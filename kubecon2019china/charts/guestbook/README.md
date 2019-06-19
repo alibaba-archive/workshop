@@ -8,7 +8,7 @@ The chart installs a [guestbook](https://kubernetes.io/docs/tutorials/stateless-
 
 Add the repository to your local environment:
 ```bash
-$ helm repo add apphub https://apphub.aliyuncs.com/
+$ helm repo add apphub https://apphub.aliyuncs.com
 ```
 
 To install the chart with release name of `guestbook`:
@@ -16,8 +16,6 @@ To install the chart with release name of `guestbook`:
 ```bash
 $ helm install guestbook apphub/guestbook
 ```
-
-The command removes all the Kubernetes components associated with the chart and deletes the release.
 
 ## Configuration
 
@@ -54,3 +52,5 @@ To completely uninstall/delete the `guestbook` deployment:
 ```bash
 $ helm delete --purge guestbook
 ```
+
+The command removes all the Kubernetes components associated with the chart and deletes the release.

@@ -6,6 +6,10 @@ The chart installs a [guestbook](https://github.com/cloudnativeapp/guestbook) ap
 
 The chart use [Kruise](https://github.com/openkruise/kruise) as workloads so in-place upgrade is possible (Awesome!).
 
+## Installing Kruise
+
+[Install Kruise CRD & controller](https://github.com/openkruise/kruise#install-with-yaml-files)
+
 ## Installing the Chart
 
 Add the repository to your local environment:
@@ -16,7 +20,7 @@ $ helm repo add apphub https://apphub.aliyuncs.com
 To install the chart with release name (application name) of `guestbook-kruise`:
 
 ```bash
-$ helm install guestbook-kruise apphub/guestbook
+$ helm install guestbook-kruise apphub/guestbook-kruise
 ```
 
 ## Configuration

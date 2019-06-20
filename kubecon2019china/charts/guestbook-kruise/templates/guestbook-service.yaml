@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "guestbook.fullname" . }}
+  name: {{ include "guestbook-kruise.fullname" . }}
   labels:
-    app.kubernetes.io/name: {{ include "guestbook.name" . }}
-    helm.sh/chart: {{ include "guestbook.chart" . }}
+    app.kubernetes.io/name: {{ include "guestbook-kruise.name" . }}
+    helm.sh/chart: {{ include "guestbook-kruise.chart" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}
     app.kubernetes.io/managed-by: {{ .Release.Service }}
 spec:
@@ -13,5 +13,5 @@ spec:
   - port: {{ .Values.service.port }}
     targetPort: http-server
   selector:
-    app.kubernetes.io/name: {{ include "guestbook.name" . }}
+    app.kubernetes.io/name: {{ include "guestbook-kruise.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}

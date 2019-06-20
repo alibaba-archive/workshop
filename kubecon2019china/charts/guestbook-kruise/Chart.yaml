@@ -1,4 +1,4 @@
 apiVersion: v1
-description: A Helm chart to deploy Guestbook three tier web application.
-name: guestbook
+description: A Helm chart to deploy Guestbook three tier web application with Kurise controller.
+name: guestbook-kruise
 version: 0.3.0

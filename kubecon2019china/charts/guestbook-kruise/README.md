@@ -4,6 +4,8 @@ This chart provides example of some of the important features of Helm.
 
 The chart installs a [guestbook](https://github.com/cloudnativeapp/guestbook) application.
 
+The chart use [Kruise](https://github.com/openkruise/kruise) as workloads so in-place upgrade is possible (Awesome!).
+
 ## Installing the Chart
 
 Add the repository to your local environment:
@@ -11,10 +13,10 @@ Add the repository to your local environment:
 $ helm repo add apphub https://apphub.aliyuncs.com
 ```
 
-To install the chart with release name of `guestbook`:
+To install the chart with release name (application name) of `guestbook-kruise`:
 
 ```bash
-$ helm install guestbook apphub/guestbook
+$ helm install guestbook-kruise apphub/guestbook
 ```
 
 ## Configuration
@@ -34,13 +36,13 @@ The following tables lists the configurable parameters of the chart and their de
 Specify each parameter using the `--set [key=value]` argument to `helm install`. For example,
 
 ```bash
-$ helm install guestbook apphub/guestbook --set service.type=NodePort
+$ helm install guestbook-kruise apphub/guestbook --set service.type=NodePort
 ```
 
 If you are using minikube:
 
 ```bash
-$ minikube service guestbook
+$ minikube service guestbook-kruise
 ```
 
 ## Use Kustomize to configure the application
@@ -49,10 +51,10 @@ TBD
 
 ### Uninstalling the Chart
 
-To completely uninstall/delete the `guestbook` deployment:
+To completely uninstall/delete the `guestbook-kruise` deployment:
 
 ```bash
-$ helm uninstall guestbook
+$ helm uninstall guestbook-kruise
 ```
 
 The command removes all the Kubernetes components associated with the chart and deletes the release.

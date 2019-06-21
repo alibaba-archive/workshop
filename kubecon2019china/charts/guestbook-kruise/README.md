@@ -54,7 +54,7 @@ The following tables lists the configurable parameters of the chart and their de
 Specify each parameter using the `--set [key=value]` argument to `helm install`. For example,
 
 ```bash
-$ helm install guestbook-kruise apphub/guestbook --set service.type=NodePort
+$ helm install guestbook-kruise apphub/guestbook-kruise --set service.type=NodePort
 ```
 
 If you are using minikube:

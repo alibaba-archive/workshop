@@ -6,6 +6,12 @@ The chart installs a [guestbook](https://github.com/cloudnativeapp/guestbook) ap
 
 The chart use [Kruise](https://github.com/openkruise/kruise) as workloads so in-place upgrade is possible (Awesome!).
 
+## Installing Helm v3
+
+From [Helm v3 releases](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1)
+
+Or, [Helm v3 Release Mirror](https://pan.baidu.com/s/1CpGWkjPq4PDRnLRppndwGw)
+
 ## Installing Kruise
 
 [Install Kruise CRD & controller](https://github.com/openkruise/kruise#install-with-yaml-files)

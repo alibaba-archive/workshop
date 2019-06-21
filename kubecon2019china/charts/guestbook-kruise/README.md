@@ -49,7 +49,6 @@ The following tables lists the configurable parameters of the chart and their de
 | `service.type`             | Service type                                    | `LoadBalancer`                                             |
 | `service.port`             | Service port                                    | `3000`                                                     |
 | `service.sidecarPort`      | Service port for sidecar                        | `4000`                                                     |
-
 | `redis.slaveEnabled`       | Redis slave enabled                             | `true`                                                     |
 | `redis.port`               | Redis port                                      | `6379`                                                     |
 

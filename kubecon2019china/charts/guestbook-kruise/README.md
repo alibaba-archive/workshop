@@ -8,9 +8,9 @@ The chart use [Kruise](https://github.com/openkruise/kruise) as workloads so in-
 
 ## Installing Helm v3
 
-From [Helm v3 releases](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1)
+From [Helm v3 releases](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.1).
 
-Or, [Helm v3 Release Mirror](https://pan.baidu.com/s/1CpGWkjPq4PDRnLRppndwGw)
+Or, [Helm v3 Release Mirror](https://pan.baidu.com/s/1CpGWkjPq4PDRnLRppndwGw), Code: hij6
 
 ## Installing Kruise
 

@@ -13,6 +13,7 @@ image:
 service:
   type: LoadBalancer
   port: 3000
+  sidecarPort: 4000
 
 redis:
   port: 6379 

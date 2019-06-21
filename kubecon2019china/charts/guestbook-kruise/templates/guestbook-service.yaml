@@ -12,6 +12,10 @@ spec:
   ports:
   - port: {{ .Values.service.port }}
     targetPort: http-server
+    name: httpserver-port
+  - port: {{ .Values.service.sidecarPort }}
+    targetPort: sidecar-server
+    name: sidecar-port
   selector:
     app.kubernetes.io/name: {{ include "guestbook-kruise.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name }}

@@ -4,7 +4,7 @@ The workshop for cloud native application management
 
 ## Installing Helm v3
 
-From [Helm v3 releases](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.2).
+From [Helm v3 releases](https://github.com/helm/helm/releases).
 
 Or, some of Helm v3 Latest Release on Aliyun OSS:
 

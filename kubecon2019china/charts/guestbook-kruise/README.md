@@ -8,7 +8,7 @@ The chart use [Kruise](https://github.com/openkruise/kruise) as workloads so in-
 
 ## Installing Helm v3
 
-From [Helm v3 releases](https://github.com/helm/helm/releases/tag/v3.0.0-alpha.2).
+From [Helm v3 releases](https://github.com/helm/helm/releases).
 
 Or, some of Helm v3 Latest Release on Aliyun OSS:
 
